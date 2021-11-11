@@ -1,0 +1,220 @@
+@import 'dist/japanese-fonts.min.css';
+
+*{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption {
+	bottom: 270px;
+	
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 75%;
+	
+	margin-right: 50px;
+	font-size: 20px;
+	line-height: 1.9;
+	border: 13px solid green;
+	border-radius: 23px;
+	box-shadow: 40px 40px 30px rgb(14, 80, 17);
+	color: whitesmoke;
+	text-shadow: 30px 30px 10px black;
+	font-weight: 600;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 30px;
+    margin-top: 10px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal ;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-shadow: 5px 5px 10px black;
+	box-shadow: 15px 15px 10px black;
+	border: 5px solid whitesmoke;
+	border-radius: 10px 0 10px 0;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-toggler {
+	background: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+	text-shadow: 20px 20px 10px black;
+	
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+
+body {
+    background-color: #d8d8d8;
+}
+h1 {
+  margin-bottom: 05%;
+  
+  color: whitesmoke;
+  font-weight: 700;
+  margin-right: 40px;
+  text-shadow: 20px 20px 10px black;
+  
+}
+
+
+body {
+	background-color: #eee;
+}
+
+
+@keyframes border {
+	0% {
+		border:3px solid lightgreen;
+	}
+	50% {
+		border:3px solid salmon;
+	}
+	100% {
+		border:3px solid skyblue;
+	}
+}
+
+.button-1 {
+	display: inline-block;
+	height: 30px;
+	width: 120px;
+	padding: 5px 10px;
+	font-size: 10px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: rgb(14, 13, 13);
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow:5px 5px 5px black;
+  }
+  
+  .button-1:hover {background-color: #3e8e41}
+  
+  .button-1:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px rgb(19, 17, 17);
+	transform: translateY(4px);
+
+  }
+
+
+
+
+
+
+
+  select {
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+	outline:0;
+	box-shadow:none;
+	border:0!important;
+	background: #5c6664;
+	background-image: none;
+	flex: 1;
+	padding: 0 .5em;
+	color:#fff;
+	cursor:pointer;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	
+	
+ }
+ select::-ms-expand {
+	display: none;
+ }
+ .select {
+	position: relative;
+	display: flex;
+	width: 20em;
+	height: 3em;
+	margin-bottom: 20%;
+	/* margin-top: 40%; */
+	margin-left: 34%;
+	/* margin-top: 30%; */
+	/* left: 40%;
+	top: 30%; */
+	/* margin-bottom: 40%; */
+	line-height: 3;
+	background: #5c6664;
+	overflow: hidden;
+	border-radius: .25em;
+	box-shadow: 20px 20px 10px black;
+ }
+ .select::after {
+	content: '\25BC';
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 1em;
+	background: #2b2e2e;
+	cursor:pointer;
+	pointer-events:none;
+	transition:.25s all ease;
+ }
+ .select:hover::after {
+	color: #23b499;
+ }
+
+
+ .wrapper{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(-135deg, #c850c0, #4158d0);
+	/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+	/* clip-path: circle(25px at calc(0% + 45px) 45px); */
+	clip-path: circle(25px at calc(100% - 45px) 45px);
+	transition: all 0.3s ease-in-out;
+  }
+  #active:checked ~ .wrapper{
+	clip-path: circle(75%);
+  }
+ h2
+ {    
+	 font-size: 20px;
+	 
+ }
